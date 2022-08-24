@@ -8,7 +8,7 @@ public final class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        Bukkit.getLogger().info("Hello world! 3");
+        Bukkit.getLogger().info("Hello world! 4");
     }
 
     @Override
