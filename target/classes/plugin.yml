@@ -1,0 +1,4 @@
+name: UHCAgeOfBedwars
+version: '1.0.0'
+main: uhcageofbedwars.uhcageofbedwars.Main
+api-version: 1.19

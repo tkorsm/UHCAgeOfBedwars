@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UHCAgeOfBedwars:jar">
+    <output-path>$USER_HOME$/Desktop/uhc-age-of-bedwars/plugins</output-path>
+    <root id="archive" name="UHCAgeOfBedwars.jar">
+      <element id="module-output" name="UHCAgeOfBedwars" />
+    </root>
+  </artifact>
+</component>
