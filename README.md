@@ -14,22 +14,22 @@ The game awards victory to the team who eliminates all players on the opposing t
 
 ## 2 - Game Specifications
 
-World Size: 2048x2048
-Nether World: 256x256
-Natural Health Regeneration: 0.05x Speed
-Hunger Depletion Rate: 3x Speed
-Friendly Fire: Disabled
-Respawn Time: 8 + (Game Time(mins) * 0.04)
-Command /kill: Enabled (Players can suicide.)
-Sprint: Always Enabled
+World Size: 2048x2048\
+Nether World: 256x256\
+Natural Health Regeneration: 0.05x Speed\
+Hunger Depletion Rate: 3x Speed\
+Friendly Fire: Disabled\
+Respawn Time: 8 + (Game Time(mins) * 0.04)\
+Command /kill: Enabled (Players can suicide.)\
+Sprint: Always Enabled\
 
 ## 3 - Block/Item Specifications
 
 ###### 3A - Crafting Recipe Modifications
 
-Bed: Banned
-TNT: 5x Gunpowder + 4x Sand -> 3x TNT: 3x Gunpowder + 6x Sand
-Coal/Iron/Gold/Redstone/Lapis/Diamond/Emerald/Netherite Blocks: 1x Block -> 9x Block
+Bed: Banned\
+TNT: 5x Gunpowder + 4x Sand -> 3x TNT: 3x Gunpowder + 6x Sand\
+Coal/Iron/Gold/Redstone/Lapis/Diamond/Emerald/Netherite Blocks: 1x Block -> 9x Block\
 
 ###### 3B - Hardness
 
