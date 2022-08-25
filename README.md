@@ -4,80 +4,89 @@
 
 UHC Age of Bedwars is a unique take on a number of different classic gamemodes, such as: Team Deathmatch, Ultra Hardcore, and Bedwars.
 
-The gamemode is a two-team deathmatch that takes place within a survival Minecraft world. Players start off with a bed, and can place it during any point in the match. Each bed is tied the player who placed it, if the player dies and they have not placed their bed or it has been destroyed, they are eliminated from the game. Beds are banned from crafting.
+The gamemode is a two-team deathmatch that takes place within a survival Minecraft world. When the game starts, players spawn at the center of the world and start off with a bed, which can be placed during any point in the match. Beds act as respawn points and is tied the player who placed it, if the player dies and they have not placed their bed or it has been destroyed, they are eliminated from the game. Beds are banned from crafting and do not drop.
 
-In addition, the game has many modifications to it that make the gamemode more unforgiving. Natural Health Regeneration and Hunger are nerfed dramatically. There will be a 2 minute grace period at the start of the game, during this time: Health Regeneration is normal, Hunger will not deplete, dying without placing a bed will respawn you around 0, 0.
+In addition, the game has many modifications to it that make the gamemode more unforgiving. Natural Health Regeneration and Hunger are nerfed dramatically. There will be a grace period at the start of the game. (See 4A)
 
-To balance out the durability of playermade bases, some blocks will have increased/decreased Hardness and Blast Resistance values. The Material Blocks in particular will also produce 9 blocks instead of 1, but will not drop if destroyed. (See 2B)
+To balance out the durability of playermade bases, some blocks will have increased/decreased Hardness and Blast Resistance values, and some blocks have had their recipe/output changed to increase availability. (See 3)
 
 The game awards victory to the team who eliminates all players on the opposing team. The intended game length is 30 minutes.
 
-## 2A - Game Specifications
+## 2 - Game Specifications
 
 World Size: 2048x2048
 Nether World: 256x256
 Natural Health Regeneration: 0.05x Speed
 Hunger Depletion Rate: 3x Speed
+Friendly Fire: Disabled
+Respawn Time: 8 + (Game Time(mins) * 0.04)
+Command /kill: Enabled (Players can suicide.)
+Sprint: Always Enabled
 
-## 2B - Block/Item Specifications
+## 3 - Block/Item Specifications
 
-###### Crafting Recipe Modifications
+###### 3A - Crafting Recipe Modifications
 
-TNT: 5x Gunpowder + 4x Sand -> 3x TNT: 3x Gunpowder + 6x Sand
-Iron Block: 9x Iron Ingot -> 9x Iron Block: 9x Iron Ingot
-Redstone Block: 9x Redstone -> 9x Redstone: 9x Redstone
-Lapis Block: 9x Lapis Lazuli -> 9x Lapis Block: 9x Lapis Lazuli
-Gold Block: 9x Gold Ingot -> 9x Gold Block: 9x Gold Ingot
-Diamond Block: 9x Diamond -> 9x Diamond Block: 9x Diamond
-Netherite Block: 9x Netherite Ingot -> 9x Netherite Block: 9x Netherite Ingot
 Bed: Banned
+TNT: 5x Gunpowder + 4x Sand -> 3x TNT: 3x Gunpowder + 6x Sand
+Coal/Iron/Gold/Redstone/Lapis/Diamond/Emerald/Netherite Blocks: 1x Block -> 9x Block
 
-###### Hardness
+###### 3B - Hardness
 
-Wooden Door/Trapdoor: 3 -> 12
-Iron Door/Trapdoor: 5 -> 40
+Bed: 0.2 -> 20
+Wooden Door/Trapdoor: 3 -> 10
+Iron Door/Trapdoor: 5 -> 24
 Wood Plank: 2 -> 2.5
 Cobblestone: 2 -> 3
-Obsidian: 50 -> 4
+Coal Block: 5 -> 4
+Obsidian: 50 -> 8
 Iron Block: 5 -> 8
-Redstone Block: 5 -> 4
-Lapis Block: 3 -> 4
 Gold Block: 5 -> 16
+Redstone Block: 5 -> 5
+Lapis Block: 3 -> 5
 Diamond Block: 5 -> 16
-Netherite Block: 50 -> 32
-Bed: 0.2 -> 20
+Emerald Block: 5 -> 16
+Netherite Block: 50 -> 64
 
-###### Blast Resistance
+###### 3C - Blast Resistance
 
-Wooden Door/Trapdoor: 3 -> 14
-Iron Door/Trapdoor: 5 -> 42
+Bed: 0.2 -> 22
+Wooden Door/Trapdoor: 3 -> 12
+Iron Door/Trapdoor: 5 -> 26
 Wood Plank: 3 -> 4.5
 Cobblestone: 6 -> 5
-Obsidian: 1200 -> 34
-Iron Block: 6 -> 10
-Redstone Block: 6 -> 6
-Lapis Block: 3 -> 6
-Gold Block: 6 -> 0
-Diamond Block: 18
-Netherite Block: 1200 -> 34
-Bed: 0.2 -> 68
+Coal Block: 6 -> 6
+Obsidian: 1200 -> 66
+Iron Block: 5 -> 10
+Gold Block: 5 -> 0
+Redstone Block: 6 -> 7
+Lapis Block: 6 -> 7
+Diamond Block: 5 -> 18
+Emerald Block: 5 -> 18
+Netherite Block: 1200 -> 66
 
-###### Block/Item Modifications
+###### 3D - Block/Item Modifications
 
 Compass: Points toward enemy player/bed locations (x/z-axis). Right click to change target.
 Clock: Points toward enemy player/bed locations (y-axis). Right click to change target.
 Doors/Trapdoors: Can only be opened/closed by team members who placed them.
 
-## 2C - Block Drop Banlist
+###### 3E - Block Drop Banlist
 
 The following blocks will not be dropped upon player death, block break, or drop by player.
 
 Bed
-Iron Block
-Redstone Block
-Lapis Block
-Gold Block
-Diamond Block
-Netherite Block
+Coal/Iron/Gold/Redstone/Lapis/Diamond/Emerald/Netherite Blocks
 
-## Gameflow
+## 4 - Gameflow
+
+1. When players join, they are put into a lobby area.
+2. Once the game starts, the world is generated, the players are spawned in to around (0, 0). Grace period begins at this time.
+
+###### 4A - Grace Period
+
+During this period, the following modifications are in play:
+
+Upon death, the player will respawn to around (0, 0) if they have not placed their bed.
+Natural Health Generation is normal, and Hunger will not deplete.
+Enemies cannot attack each other.
