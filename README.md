@@ -80,7 +80,7 @@ Coal/Iron/Gold/Redstone/Lapis/Diamond/Emerald/Netherite Blocks
 
 ## 4 - Gameflow
 
-1. When players join, they are put into a lobby area.\
+1. When players join, they are put into a lobby area.
 2. Once the game starts, the world is generated, the players are spawned in to around (0, 0). Grace period begins at this time.
 
 ###### 4A - Grace Period
