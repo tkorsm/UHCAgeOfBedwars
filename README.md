@@ -21,7 +21,7 @@ Hunger Depletion Rate: 3x Speed\
 Friendly Fire: Disabled\
 Respawn Time: 8 + (Game Time(mins) * 0.04)\
 Command /kill: Enabled (Players can suicide.)\
-Sprint: Always Enabled\
+Sprint: Always Enabled
 
 ## 3 - Block/Item Specifications
 
@@ -29,64 +29,64 @@ Sprint: Always Enabled\
 
 Bed: Banned\
 TNT: 5x Gunpowder + 4x Sand -> 3x TNT: 3x Gunpowder + 6x Sand\
-Coal/Iron/Gold/Redstone/Lapis/Diamond/Emerald/Netherite Blocks: 1x Block -> 9x Block\
+Coal/Iron/Gold/Redstone/Lapis/Diamond/Emerald/Netherite Blocks: 1x Block -> 9x Block
 
 ###### 3B - Hardness
 
-Bed: 0.2 -> 20
-Wooden Door/Trapdoor: 3 -> 10
-Iron Door/Trapdoor: 5 -> 24
-Wood Plank: 2 -> 2.5
-Cobblestone: 2 -> 3
-Coal Block: 5 -> 4
-Obsidian: 50 -> 8
-Iron Block: 5 -> 8
-Gold Block: 5 -> 16
-Redstone Block: 5 -> 5
-Lapis Block: 3 -> 5
-Diamond Block: 5 -> 16
-Emerald Block: 5 -> 16
+Bed: 0.2 -> 20\
+Wooden Door/Trapdoor: 3 -> 10\
+Iron Door/Trapdoor: 5 -> 24\
+Wood Plank: 2 -> 2.5\
+Cobblestone: 2 -> 3\
+Coal Block: 5 -> 4\
+Obsidian: 50 -> 8\
+Iron Block: 5 -> 8\
+Gold Block: 5 -> 16\
+Redstone Block: 5 -> 5\
+Lapis Block: 3 -> 5\
+Diamond Block: 5 -> 16\
+Emerald Block: 5 -> 16\
 Netherite Block: 50 -> 64
 
 ###### 3C - Blast Resistance
 
-Bed: 0.2 -> 22
-Wooden Door/Trapdoor: 3 -> 12
-Iron Door/Trapdoor: 5 -> 26
-Wood Plank: 3 -> 4.5
-Cobblestone: 6 -> 5
-Coal Block: 6 -> 6
-Obsidian: 1200 -> 66
-Iron Block: 5 -> 10
-Gold Block: 5 -> 0
-Redstone Block: 6 -> 7
-Lapis Block: 6 -> 7
-Diamond Block: 5 -> 18
-Emerald Block: 5 -> 18
+Bed: 0.2 -> 22\
+Wooden Door/Trapdoor: 3 -> 12\
+Iron Door/Trapdoor: 5 -> 26\
+Wood Plank: 3 -> 4.5\
+Cobblestone: 6 -> 5\
+Coal Block: 6 -> 6\
+Obsidian: 1200 -> 66\
+Iron Block: 5 -> 10\
+Gold Block: 5 -> 0\
+Redstone Block: 6 -> 7\
+Lapis Block: 6 -> 7\
+Diamond Block: 5 -> 18\
+Emerald Block: 5 -> 18\
 Netherite Block: 1200 -> 66
 
 ###### 3D - Block/Item Modifications
 
-Compass: Points toward enemy player/bed locations (x/z-axis). Right click to change target.
-Clock: Points toward enemy player/bed locations (y-axis). Right click to change target.
+Compass: Points toward enemy player/bed locations (x/z-axis). Right click to change target.\
+Clock: Points toward enemy player/bed locations (y-axis). Right click to change target.\
 Doors/Trapdoors: Can only be opened/closed by team members who placed them.
 
 ###### 3E - Block Drop Banlist
 
 The following blocks will not be dropped upon player death, block break, or drop by player.
 
-Bed
+Bed\
 Coal/Iron/Gold/Redstone/Lapis/Diamond/Emerald/Netherite Blocks
 
 ## 4 - Gameflow
 
-1. When players join, they are put into a lobby area.
+1. When players join, they are put into a lobby area.\
 2. Once the game starts, the world is generated, the players are spawned in to around (0, 0). Grace period begins at this time.
 
 ###### 4A - Grace Period
 
 During this period, the following modifications are in play:
 
-Upon death, the player will respawn to around (0, 0) if they have not placed their bed.
-Natural Health Generation is normal, and Hunger will not deplete.
+Upon death, the player will respawn to around (0, 0) if they have not placed their bed.\
+Natural Health Generation is normal, and Hunger will not deplete.\
 Enemies cannot attack each other.
