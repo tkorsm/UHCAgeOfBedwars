@@ -90,3 +90,6 @@ During this period, the following modifications are in play:
 Upon death, the player will respawn to around (0, 0) if they have not placed their bed.\
 Natural Health Generation is normal, and Hunger will not deplete.\
 Enemies cannot attack each other.
+
+3. Once grace period ends, the normal gamerules are in play.
+4. After the last player from one team is eliminated from the game, the victory is rewarded to the standing team.
